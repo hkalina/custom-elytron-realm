@@ -9,10 +9,17 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- interface SecurityRealm -->
         <dependency>
             <groupId>org.wildfly.security</groupId>
             <artifactId>wildfly-elytron</artifactId>
             <version>1.2.3.Final</version>
+        </dependency>
+        <!-- interface Configurable -->
+        <dependency>
+            <groupId>org.wildfly.core</groupId>
+            <artifactId>wildfly-elytron-integration</artifactId>
+            <version>5.0.0.Alpha1</version>
         </dependency>
     </dependencies>
 
